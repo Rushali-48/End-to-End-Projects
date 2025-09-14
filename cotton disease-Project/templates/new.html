@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>New Page</title>
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            overflow-x: hidden;
+            background-image: url("https://cruelty.farm/wp-content/uploads/2024/11/agricultural-2.jpg");
+            background-size: 55%; /* Adjust the zoom level as needed */
+            background-position: center;
+        }
+        
+
+        header {
+            background-color: rgba(0, 0, 0, 0.7); /* Transparent black */
+            color: #fff;
+            /*padding: 1px 2px; /* Adjusted padding */
+            display: flex;
+            justify-content: space-between; /* Distribute items along the header */
+            align-items: center;
+        }
+                
+        /* Adjust the margin to push the icons to the right */
+        header a:first-child {
+            margin-right: auto;
+        }
+
+        section {
+            text-align: center;
+            margin-top: 40px;
+        }
+
+        h1 {
+            color: #fff;
+            font-weight: bold;
+            font-size: 2.5rem;
+            font-weight: bold;
+        }
+        
+        /* Center the title horizontally and vertically */
+        .title-container {
+            flex-grow: 1; /* Take up remaining space */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        section {
+            max-width: 10px;
+            margin: 100;
+            padding: 0;
+            background-color: rgba(0, 0, 0, 0.7);
+            border-radius: 10px;
+            align-items: center;
+        }
+
+        .center-container {
+            height: calc(100vh - 120px); /* adjust for header + title */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            position: relative;
+            z-index: 1;
+            padding: 20px;
+        }
+
+
+        .sectionbox {
+            background-color: rgba(0, 0, 0, 0.7);
+            padding: 30px;
+            border-radius: 12px;
+            max-width: 800px;
+            width: 100%;
+            backdrop-filter: blur(6px);
+            color: #fff; /* Ensures all text inside is white */
+        }
+
+        p {
+            line-height: 1.6;
+            font-size: 18px;
+        }
+
+        .start-btn {
+      background-color: #0d6efd;
+      border: none;
+      padding: 12px 25px;
+      font-size: 18px;
+      color: white;
+      border-radius: 8px;
+      text-decoration: none;
+      transition: background-color 0.3s;
+      align-items: center;
+    }
+
+    .btn-container {
+      display: flex;
+      justify-content: center;
+      margin-top: 30px;
+    }
+
+    .start-btn:hover {
+      background-color: #d70b0b6c;
+      text-decoration: none;
+      color: white;
+      align-items: center;
+    }
+    </style>
+</head>
+<body>
+
+<header>
+    <!-- Title container to center the title -->
+    <div class="title-container">    
+        <h1>Cotton Disease</h1>
+    </div>
+</header>
+
+<div class="center-container">
+    <div class="sectionbox">
+        <p>
+            Cotton plants can get sick from diseases like Bacterial Blight, Fusarium Wilt, and Cotton Leaf Curl Virus. These cause spots, wilting, curled leaves, and can reduce the crop yield. To protect cotton, farmers use resistant seeds, rotate crops, spray medicines, and control insects like whiteflies.
+        </p>
+
+            <div class="btn-container">
+                <a href="/upload" class="start-btn">Start Prediction</a>
+    </div>
+</div>
+
+</div>
+
+</body>
+</html>
+    
